@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <audio autoplay loop id="bgAudio">
+      <source src="./audio/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <header class="header" id="header">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <img class="header__img" src="./img/logo.png" alt="" />
+        </div>
+        <div class="header__text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            labore doloremque ullam quo dolor, deserunt atque ipsam distinctio
+            esse repellendus sequi similique minima sit ex corrupti vel
+            assumenda molestiae! Qui!
+          </p>
+        </div>
+        <button class="btn btn--primary" id="startButton">ENTER</button>
+      </div>
+    </header>
+    <section class="planets" id="planetsContainer">
+      <div class="planets__topbar-logo">
+        <img class="planets__logo" src="./img/logo1.png" alt="Metaverse Logo" />
+      </div>
+      <div class="planets__topbar-volume-icon">
+        <img
+          class="planets__volume-icon"
+          id="volumeIcon"
+          src="./img/volume-on.png"
+          alt="Volume icon"
+          data-js-volume="on"
+        />
+      </div>
+      <h2 class="planets__heading" id="planetHeading">Neptune</h2>
+      <div class="planets__canvas-container" id="canvasContainer">
+        <canvas></canvas>
+        <div class="planets__controls">
+          <label class="controls__container">
+            <input
+              type="radio"
+              name="radio"
+              id="radioBtn"
+              value="Neptune"
+              checked
+              data-js-order="1"
+            />
+            <span class="controls__checkmark"></span>
+          </label>
+          <label class="controls__container">
+            <input
+              type="radio"
+              name="radio"
+              id="radioBtn"
+              value="mars"
+              checked="false"
+              data-js-order="2"
+            />
+            <span class="controls__checkmark"></span>
+          </label>
+          <label class="controls__container">
+            <input
+              type="radio"
+              name="radio"
+              id="radioBtn"
+              value="pluto"
+              data-js-order="3"
+              checked="false"
+            />
+            <span class="controls__checkmark"></span>
+          </label>
+          <label class="controls__container">
+            <input
+              type="radio"
+              name="radio"
+              id="radioBtn"
+              value="jupitor"
+              data-js-order="4"
+              checked="false"
+            />
+            <span class="controls__checkmark"></span>
+          </label>
+
+          <label class="controls__container">
+            <input
+              type="radio"
+              name="radio"
+              id="radioBtn"
+              value="mercury"
+              data-js-order="5"
+              checked="false"
+            />
+            <span class="controls__checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <p class="planets__text" id="planetText">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, facere.
+      </p>
+    </section>
+    <script src="js/app.js" defer type="module"></script>
+  </body>
+</html>

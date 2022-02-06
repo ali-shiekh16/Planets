@@ -1,0 +1,21 @@
+{
+  "name": "solar-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.16",
+    "parcel": "^2.2.1",
+    "postcss": "^8.4.6"
+  }
+}
