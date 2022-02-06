@@ -64,6 +64,10 @@ h2 {
   opacity: 1;
   transition: 0.3s;
   height: 100vh;
+  border: solid red 2px;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .header--transparent {
@@ -80,7 +84,7 @@ h2 {
 }
 
 .header__img {
-  width: 500px;
+  height: 400px;
 }
 
 .header__text {
