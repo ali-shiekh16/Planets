@@ -5,6 +5,7 @@ import mars from './mars';
 import pluto from './pluto';
 import jupitor from './jupitor';
 import mercury from './mercury';
+import sun from './sun';
 import scene from './scene';
 import volumeOffIcon from '../img/volume-off.png';
 import volumeOnIcon from '../img/volume-on.png';
@@ -46,9 +47,10 @@ const planetsTexts = [
   'Cras eget massa vitae est porta mollis. Aenean et mi diam. In hac habitasse platea dictumst. Integer dapibus, neque eget dictum feugiat, velit neque ornare mi, ',
   'sit amet fringilla nibh orci finibus massa. Donec ut cursus arcu. Etiam porttitor pulvinar libero, sed mattis erat vestibulum id. ',
   'Cras eget massa vitae est porta mollis. Aenean et mi diam. In hac habitasse platea dictumst. Integer dapibus, neque eget dictum feugiat, velit neque ornare mi, ',
+  'Nam ac turpis dui. Nam interdum felis tristique mattis semper. Phasellus porta nisl et risus luctus mollis. In hac habitasse platea dictumst. Aliquam nec risus dui',
 ];
 
-const planets = [neptune, mars, pluto, jupitor, mercury];
+const planets = [neptune, mars, pluto, jupitor, mercury, sun];
 
 let currentPlanet = neptune;
 
