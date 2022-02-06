@@ -6,6 +6,13 @@
   --color-primary: #ee5519;
   --color-secondary: #222240;
 }
+@font-face {
+  font-family: 'grinddemolished';
+  src: url('../fonts/grind_demolished-webfont.woff2') format('woff2'),
+    url('../fonts/grind_demolished-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 *,
 *::after,
@@ -80,10 +87,10 @@ h2 {
   opacity: 1;
   transition: 0.3s;
   height: 100vh;
-  border: solid red 2px;
   background-image: url(../img/cover.jpg);
   background-size: cover;
   background-position: center;
+  font-family: 'grinddemolished';
 }
 
 .header--transparent {
@@ -103,12 +110,22 @@ h2 {
   height: 400px;
 }
 
+.header__heading {
+  font-size: 12rem;
+}
+
+.heading__heading--colored {
+  color: var(--color-primary);
+}
+
 .header__text {
+  color: var(--color-white);
+  font-size: 2rem;
+  letter-spacing: 1rem;
   line-height: 1.7;
-  margin: 5rem 0 2rem 0;
+  margin: 0rem 0 2rem 0;
   max-width: 700px;
   text-align: center;
-  color: var(--color-white-1);
 }
 
 /* CANVAS */
