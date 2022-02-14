@@ -27,8 +27,8 @@ html {
 }
 
 body {
-  background: var(--color-black);
-  color: var(--color-white);
+  /* background: #453aa500; */
+  /* color: var(--color-white); */
   font-family: Helvetica, arial, sans-serif;
   font-size: 2rem;
   /* overflow-y: hidden; */

@@ -5,6 +5,7 @@ const { size } = base;
 
 const renderer = new WebGLRenderer({
   canvas: document.querySelector('canvas'),
+  alpha: true,
 });
 renderer.setSize(size.width, size.height - 400);
 
